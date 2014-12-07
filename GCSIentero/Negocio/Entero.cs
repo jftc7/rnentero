@@ -38,5 +38,12 @@ namespace Negocio
 
         }
 
+        public bool EsImpar()
+        {
+
+            return numeroentero % 2 ! = 0;
+
+        }
+
     }
 }
