@@ -40,11 +40,16 @@
             </tr>
             <tr>
                 <td class="auto-style1">
+<<<<<<< HEAD
                     <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Button" />
+=======
+                    <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="MasRepetido" />
+>>>>>>> 93821a589d170d663de77570e6b917cb4ef72db9
                 </td>
                 <td class="auto-style2">
                     <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
                 </td>
+<<<<<<< HEAD
                 <td>&nbsp;</td>
             </tr>
             <tr>
@@ -74,6 +79,8 @@
             <tr>
                 <td class="auto-style1">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
+=======
+>>>>>>> 93821a589d170d663de77570e6b917cb4ef72db9
                 <td>&nbsp;</td>
             </tr>
         </table>

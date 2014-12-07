@@ -48,6 +48,7 @@ namespace GCSIentero
 
         protected void Button3_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Entero objetoentero1 = new Entero();
 
             int n = int.Parse(TextBox1.Text);
@@ -69,6 +70,17 @@ namespace GCSIentero
 
             int resultado = objetoentero1.EliminarMayor(917852);
             Label4.Text = resultado.ToString();
+=======
+
+            Entero objetoentero = new Entero();
+
+            int n = int.Parse(TextBox1.Text);
+
+            objetoentero.set(n);
+
+            Label3.Text = objetoentero.DigitoMasRepetido().ToString();
+
+>>>>>>> 93821a589d170d663de77570e6b917cb4ef72db9
         }
 
 

@@ -2,8 +2,12 @@ E:\onlyGIT\rnentero\GCSIentero\Negocio\bin\Debug\Negocio.dll
 E:\onlyGIT\rnentero\GCSIentero\Negocio\bin\Debug\Negocio.pdb
 E:\onlyGIT\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.dll
 E:\onlyGIT\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.pdb
+<<<<<<< HEAD
 D:\Prueba\rnentero\GCSIentero\Negocio\bin\Debug\Negocio.dll
 D:\Prueba\rnentero\GCSIentero\Negocio\bin\Debug\Negocio.pdb
 D:\Prueba\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 D:\Prueba\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.dll
 D:\Prueba\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.pdb
+=======
+E:\onlyGIT\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+>>>>>>> 93821a589d170d663de77570e6b917cb4ef72db9
