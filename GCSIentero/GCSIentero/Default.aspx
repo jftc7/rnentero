@@ -27,8 +27,7 @@
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Ok" />
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">
@@ -37,6 +36,39 @@
                 <td class="auto-style2">
                     <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
                 </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style1">
+                    <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Button" />
+                </td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style1">
+                    <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Button" />
+                </td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style1">&nbsp;</td>
+                <td class="auto-style2">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style1">&nbsp;</td>
+                <td class="auto-style2">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style1">&nbsp;</td>
+                <td class="auto-style2">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>

@@ -46,6 +46,31 @@ namespace GCSIentero
             }
         }
 
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Entero objetoentero1 = new Entero();
+
+            int n = int.Parse(TextBox1.Text);
+
+            objetoentero1.set(n);
+
+             int resultado=objetoentero1.Ordenado();
+             Label3.Text = resultado.ToString();
+
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Entero objetoentero1 = new Entero();
+
+            //int n = int.Parse(TextBox1.Text);
+
+            //objetoentero1.set(n);
+
+            int resultado = objetoentero1.EliminarMayor(917852);
+            Label4.Text = resultado.ToString();
+        }
+
 
     }
 }
