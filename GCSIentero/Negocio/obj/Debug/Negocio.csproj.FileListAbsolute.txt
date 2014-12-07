@@ -1,0 +1,5 @@
+E:\onlyGIT\rnentero\GCSIentero\Negocio\bin\Debug\Negocio.dll
+E:\onlyGIT\rnentero\GCSIentero\Negocio\bin\Debug\Negocio.pdb
+E:\onlyGIT\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+E:\onlyGIT\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.dll
+E:\onlyGIT\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.pdb
