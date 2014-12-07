@@ -38,6 +38,7 @@ namespace Negocio
 
         }
 
+<<<<<<< HEAD
         //////////////////////////////////////////////...................
 
         public int[] ObtenerNumeros() {
@@ -101,6 +102,13 @@ namespace Negocio
             }
 
             return indicemayor;
+=======
+        public bool EsImpar()
+        {
+
+            return numeroentero % 2 ! = 0;
+
+>>>>>>> a95384aa83551ff21f739f18cb5c5191e2e62bb7
         }
 
     }
