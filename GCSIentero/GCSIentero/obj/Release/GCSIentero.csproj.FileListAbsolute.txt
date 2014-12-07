@@ -1,0 +1,8 @@
+E:\onlyGIT\rnentero\GCSIentero\GCSIentero\bin\GCSIentero.dll.config
+E:\onlyGIT\rnentero\GCSIentero\GCSIentero\bin\GCSIentero.dll
+E:\onlyGIT\rnentero\GCSIentero\GCSIentero\bin\GCSIentero.pdb
+E:\onlyGIT\rnentero\GCSIentero\GCSIentero\bin\Negocio.dll
+E:\onlyGIT\rnentero\GCSIentero\GCSIentero\bin\Negocio.pdb
+E:\onlyGIT\rnentero\GCSIentero\GCSIentero\obj\Release\GCSIentero.csprojResolveAssemblyReference.cache
+E:\onlyGIT\rnentero\GCSIentero\GCSIentero\obj\Release\GCSIentero.dll
+E:\onlyGIT\rnentero\GCSIentero\GCSIentero\obj\Release\GCSIentero.pdb

@@ -11,7 +11,7 @@ namespace GCSIentero
     public partial class _Default : System.Web.UI.Page
     {
 
-        Entero objetoentero = new Entero();
+
 
 
         protected void Page_Load(object sender, EventArgs e)
@@ -21,16 +21,28 @@ namespace GCSIentero
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+
+            Entero objetoenteroa = new Entero();
+
             int n = int.Parse(TextBox1.Text);
 
-            objetoentero.set(n);
+            objetoenteroa.set(n);
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
+            Entero objetoentero = new Entero();
+
+            int n = int.Parse(TextBox1.Text);
+
+            objetoentero.set(n);
+
             if (objetoentero.EsPar())
             {
                 Label2.Text = "SI";
+            }
+            else {
+                Label2.Text = "NO";
             }
         }
 
