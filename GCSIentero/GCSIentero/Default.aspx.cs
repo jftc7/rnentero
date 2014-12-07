@@ -46,6 +46,19 @@ namespace GCSIentero
             }
         }
 
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+
+            Entero objetoentero = new Entero();
+
+            int n = int.Parse(TextBox1.Text);
+
+            objetoentero.set(n);
+
+            Label3.Text = objetoentero.DigitoMasRepetido().ToString();
+
+        }
+
 
     }
 }

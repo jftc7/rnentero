@@ -40,8 +40,12 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style1">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style1">
+                    <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="MasRepetido" />
+                </td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                </td>
                 <td>&nbsp;</td>
             </tr>
         </table>
