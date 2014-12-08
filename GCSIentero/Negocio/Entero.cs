@@ -10,8 +10,10 @@ namespace Negocio
 
         int numeroentero;
 
-        public Entero() { 
-        
+        public Entero() {
+
+            numeroentero = 0;
+
         }
 
         public Entero(int numero) {
@@ -38,7 +40,7 @@ namespace Negocio
 
         }
 
-<<<<<<< HEAD
+
         //////////////////////////////////////////////...................
 
         public int[] ObtenerNumeros() {
@@ -57,20 +59,12 @@ namespace Negocio
 
                 
             }
-            //123 / 10
-            // 23 / 1
-
-            // 23 / 10
-            //  3 / 2
-
-            //  3 / 10
-            //  0  / 3
-
 
             return vnumeros; 
         }
 
-        public int DigitoMasRepetido() {
+        public int DigitoMasRepetido()
+        {
 
             //222344455555588888000000000
 
@@ -80,20 +74,19 @@ namespace Negocio
             int mayor = 0;
             int indicemayor = 0;
 
-            while( i>0){
+            while (i > 0)
+            {
 
                 if (vnumero[i - 1] > mayor)
                 {
 
                     mayor = vnumero[i - 1];
 
-                    indicemayor = i-1;
+                    indicemayor = i - 1;
 
 
                     //..........1.7.3.4.8.5
                     //0;5
-                    
-
 
                 }
 
@@ -102,16 +95,11 @@ namespace Negocio
             }
 
             return indicemayor;
-=======
-        public bool EsImpar()
-        {
-
-            return numeroentero % 2 != 0;
-
->>>>>>> a95384aa83551ff21f739f18cb5c5191e2e62bb7
         }
 
-        public Int32 Mayor(Int32 numero) {
+
+        //////////////////////////////////////////////...................
+        private Int32 Mayorpa(Int32 numero) {
             Int32 digitoMayor = 0, ultimoDigito = 0;
             while(numero>0){
                 ultimoDigito = numero % 10;
@@ -123,8 +111,17 @@ namespace Negocio
             return digitoMayor;
         }
 
-        public int EliminarMayor(int num) {
-            Int32 digitoMayor = Mayor(num), ultimoDigito = 0, reserva = 0;
+        public int Mayor() {
+
+            return Mayorpa(numeroentero);
+
+        }
+        //////////////////////////////////////////////...................
+        public int EliminarMayor() {
+
+            int num = numeroentero;
+
+            Int32 digitoMayor = Mayorpa(num), ultimoDigito = 0, reserva = 0;
             Boolean a=false;             
                 while (a==false){                   
                     ultimoDigito = num % 10;
@@ -146,16 +143,19 @@ namespace Negocio
                 return num;
             }
 
-        
-
-
+        //////////////////////////////////////////////...................
         public Int32 Ordenado() {
+
             Int32 ordenado = 0;
-        while(numeroentero>0){
-            ordenado = (ordenado * 10) + (Mayor(numeroentero));
-            numeroentero = EliminarMayor(numeroentero);
-        }
-        return ordenado;
+            int num = numeroentero;
+
+            while(num>0){
+
+                ordenado = (ordenado * 10) + (Mayorpa(num));
+                numeroentero = EliminarMayor();
+
+            }
+            return ordenado;
         }
 
     }

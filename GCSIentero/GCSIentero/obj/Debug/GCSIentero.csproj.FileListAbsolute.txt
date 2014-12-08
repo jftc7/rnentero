@@ -21,3 +21,11 @@ D:\Prueba\rnentero\GCSIentero\GCSIentero\bin\Negocio.pdb
 D:\Prueba\rnentero\GCSIentero\GCSIentero\obj\Debug\GCSIentero.csprojResolveAssemblyReference.cache
 D:\Prueba\rnentero\GCSIentero\GCSIentero\obj\Debug\GCSIentero.dll
 D:\Prueba\rnentero\GCSIentero\GCSIentero\obj\Debug\GCSIentero.pdb
+E:\onlyGIT\repositorynet\rnentero\GCSIentero\GCSIentero\bin\GCSIentero.dll.config
+E:\onlyGIT\repositorynet\rnentero\GCSIentero\GCSIentero\bin\GCSIentero.dll
+E:\onlyGIT\repositorynet\rnentero\GCSIentero\GCSIentero\bin\GCSIentero.pdb
+E:\onlyGIT\repositorynet\rnentero\GCSIentero\GCSIentero\bin\Negocio.dll
+E:\onlyGIT\repositorynet\rnentero\GCSIentero\GCSIentero\bin\Negocio.pdb
+E:\onlyGIT\repositorynet\rnentero\GCSIentero\GCSIentero\obj\Debug\GCSIentero.csprojResolveAssemblyReference.cache
+E:\onlyGIT\repositorynet\rnentero\GCSIentero\GCSIentero\obj\Debug\GCSIentero.dll
+E:\onlyGIT\repositorynet\rnentero\GCSIentero\GCSIentero\obj\Debug\GCSIentero.pdb
