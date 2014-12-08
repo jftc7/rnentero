@@ -3,3 +3,8 @@ E:\onlyGIT\repositorynet\rnentero\GCSIentero\Negocio\bin\Debug\Negocio.pdb
 E:\onlyGIT\repositorynet\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.dll
 E:\onlyGIT\repositorynet\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.pdb
 E:\onlyGIT\repositorynet\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\rnentero\GCSIentero\Negocio\bin\Debug\Negocio.dll
+D:\rnentero\GCSIentero\Negocio\bin\Debug\Negocio.pdb
+D:\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.dll
+D:\rnentero\GCSIentero\Negocio\obj\Debug\Negocio.pdb

@@ -158,5 +158,80 @@ namespace Negocio
             return ordenado;
         }
 
+        ////////////// Many \\\\\\\\\\\\\\\\\\\\\
+        public bool esPrimo(Int32 n)
+        { //// Many \\\\\\
+            Int32 Count = 0;
+            if (n == 1 || n == 0)
+                return false;
+            for (Int32 i = 1; i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    Count++;
+                    if (Count > 2)
+                        return false;
+                }
+
+            }
+            return true;
+        }
+
+        public Int32 mostrarPrimos()
+        { //// Many \\\\\\
+            Int32 mod = 0;
+            Int32 result = 0;
+            while (numeroentero > 0)
+            {
+                mod = numeroentero % 10;
+                numeroentero = numeroentero / 10;
+                if (esPrimo(mod))
+                {
+                    result = result * 10 + mod;
+                }
+            }
+            return invertir(result);
+
+        }
+
+
+        public Int32 eliminarPrimos()
+        { //// Many \\\\\\
+            Int32 mod = 0;
+            Int32 result = 0;
+            while (numeroentero > 0)
+            {
+                mod = numeroentero % 10;
+                numeroentero = numeroentero / 10;
+                if (!esPrimo(mod))
+                {
+                    result = result * 10 + mod;
+                }
+            }
+            return invertir(result);
+
+        }
+        public Int32 invertir(Int32 n)
+        { //// Many \\\\\\
+            Int32 mod = 0;
+            Int32 result = 0;
+            while (n > 0)
+            {
+                mod = n % 10;
+                n = n / 10;
+                result = result * 10 + mod;
+            }
+            return result;
+        }
+        public Int32 cantidadDigitos()
+        {       //// Many \\\\\\      
+            Int32 result = 0;
+            while (numeroentero > 0)
+            {
+                numeroentero = numeroentero / 10;
+                result++;
+            }
+            return result;
+        }
     }
 }
