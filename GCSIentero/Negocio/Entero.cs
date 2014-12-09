@@ -158,7 +158,7 @@ namespace Negocio
             return ordenado;
         }
 
-        ////////////// Many \\\\\\\\\\\\\\\\\\\\\
+        ////////////// Many \\\\\\\\\\\\\\\\\\\\\\\\\\
         public bool esPrimo(Int32 n)
         { //// Many \\\\\\
             Int32 Count = 0;
@@ -178,7 +178,7 @@ namespace Negocio
         }
 
         public Int32 mostrarPrimos()
-        { //// Many \\\\\\
+        { //// Many \\\\\\\\\\
             Int32 mod = 0;
             Int32 result = 0;
             while (numeroentero > 0)
@@ -196,7 +196,7 @@ namespace Negocio
 
 
         public Int32 eliminarPrimos()
-        { //// Many \\\\\\
+        { //// Many \\\\\\\\\
             Int32 mod = 0;
             Int32 result = 0;
             while (numeroentero > 0)
@@ -212,7 +212,7 @@ namespace Negocio
 
         }
         public Int32 invertir(Int32 n)
-        { //// Many \\\\\\
+        { //// Many \\\\\\\\\\
             Int32 mod = 0;
             Int32 result = 0;
             while (n > 0)
